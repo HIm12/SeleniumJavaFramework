@@ -1,0 +1,58 @@
+[INFO ] 2022-10-07 10:17:37.151 [main] AddtoCartTest - Driver clicked on loggin button 
+[INFO ] 2022-10-07 10:17:46.599 [main] AddtoCartTest - Item searched
+[INFO ] 2022-10-07 11:07:55.877 [main] AddtoCartTest - Item searched
+[INFO ] 2022-10-07 11:08:51.246 [main] AddtoCartTest - Item searched
+[INFO ] 2022-10-07 11:40:41.910 [main] signUpTest - Signup is done
+[INFO ] 2022-10-07 11:41:54.839 [main] LoginPageTest - loginUsingMobileNumber
+[INFO ] 2022-10-07 11:42:40.429 [main] LoginPageTest - loginUsingEmailID
+[INFO ] 2022-10-07 11:43:45.570 [main] LoginPageTest - invalidEmailLogin
+[INFO ] 2022-10-07 11:44:24.757 [main] LoginPageTest - invalidMobileNumberLogin
+[INFO ] 2022-10-07 11:44:59.211 [main] LoginPageTest - excellogintesting
+[INFO ] 2022-10-07 11:46:06.291 [main] SearchItemTest - search item
+[INFO ] 2022-10-07 11:46:53.208 [main] FilterTest - minimum amount selected
+[INFO ] 2022-10-07 11:46:56.310 [main] FilterTest - maximum amount selected
+[INFO ] 2022-10-07 11:48:06.235 [main] AddtoCartTest - Item searched
+[INFO ] 2022-10-07 11:48:09.400 [main] AddtoCartTest - Item added in cart
+[INFO ] 2022-10-07 11:49:02.423 [main] paymentTest - paymentgiftcard
+[INFO ] 2022-10-07 11:49:40.362 [main] paymentTest - paymentsavedcard
+[INFO ] 2022-10-07 11:50:39.364 [main] myOrdersTest - Hover to click on orders
+[INFO ] 2022-10-07 11:51:32.247 [main] CouponsTest - mouse hovered on profile
+[INFO ] 2022-10-07 11:51:34.341 [main] CouponsTest - click on profile
+[INFO ] 2022-10-07 11:52:36.479 [main] ProfileTest - mouse hover on profile
+[INFO ] 2022-10-07 11:52:38.587 [main] ProfileTest - clicked on profile
+[INFO ] 2022-10-07 11:52:43.833 [main] ProfileTest - Manage Address
+[INFO ] 2022-10-07 11:52:50.159 [main] ProfileTest - Address Enterted
+[INFO ] 2022-10-07 11:54:05.151 [main] TopOfferTest - Top Offer Testing
+[INFO ] 2022-10-07 11:55:09.115 [main] becomeAsellerTest - click on become a seller page
+[INFO ] 2022-10-07 11:56:34.423 [main] groceryTest - grocery link searched
+[INFO ] 2022-10-07 11:57:20.368 [main] contactUsTest - contact us page
+[INFO ] 2022-10-07 11:57:52.673 [main] contactUsTest - Help Center Page
+[INFO ] 2022-10-07 11:58:37.520 [main] CarrerTest - searching carrer page
+[INFO ] 2022-10-07 11:59:34.404 [main] TravelIconTest - TraveliconTesting
+[INFO ] 2022-10-07 11:59:59.240 [main] signoutTest - signout performed
+[INFO ] 2022-10-07 12:03:57.137 [main] signUpTest - Signup is done
+[INFO ] 2022-10-07 12:04:31.305 [main] LoginPageTest - loginUsingMobileNumber
+[INFO ] 2022-10-07 12:05:06.324 [main] LoginPageTest - loginUsingEmailID
+[INFO ] 2022-10-07 12:05:24.737 [main] LoginPageTest - invalidEmailLogin
+[INFO ] 2022-10-07 12:05:57.480 [main] LoginPageTest - invalidMobileNumberLogin
+[INFO ] 2022-10-07 12:06:34.271 [main] LoginPageTest - excellogintesting
+[INFO ] 2022-10-07 12:07:08.244 [main] SearchItemTest - search item
+[INFO ] 2022-10-07 12:08:13.246 [main] FilterTest - minimum amount selected
+[INFO ] 2022-10-07 12:08:16.388 [main] FilterTest - maximum amount selected
+[INFO ] 2022-10-07 12:08:56.532 [main] AddtoCartTest - Item searched
+[INFO ] 2022-10-07 12:08:59.747 [main] AddtoCartTest - Item added in cart
+[INFO ] 2022-10-07 12:12:54.647 [main] myOrdersTest - Hover to click on orders
+[INFO ] 2022-10-07 12:13:48.616 [main] CouponsTest - mouse hovered on profile
+[INFO ] 2022-10-07 12:13:50.753 [main] CouponsTest - click on profile
+[INFO ] 2022-10-07 12:15:00.392 [main] ProfileTest - mouse hover on profile
+[INFO ] 2022-10-07 12:15:02.537 [main] ProfileTest - clicked on profile
+[INFO ] 2022-10-07 12:15:07.841 [main] ProfileTest - Manage Address
+[INFO ] 2022-10-07 12:15:14.717 [main] ProfileTest - Address Enterted
+[INFO ] 2022-10-07 12:15:57.123 [main] TopOfferTest - Top Offer Testing
+[INFO ] 2022-10-07 12:16:31.245 [main] becomeAsellerTest - click on become a seller page
+[INFO ] 2022-10-07 12:17:09.635 [main] groceryTest - grocery link searched
+[INFO ] 2022-10-07 12:17:43.989 [main] contactUsTest - contact us page
+[INFO ] 2022-10-07 12:18:01.141 [main] contactUsTest - Help Center Page
+[INFO ] 2022-10-07 12:18:34.815 [main] CarrerTest - searching carrer page
+[INFO ] 2022-10-07 12:19:15.959 [main] TravelIconTest - TraveliconTesting
+[INFO ] 2022-10-07 12:20:01.221 [main] signoutTest - signout performed

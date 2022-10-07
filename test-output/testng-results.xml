@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="30" total="52" passed="18" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T12:03:16 IST" name="Suite" finished-at="2022-10-07T12:20:03 IST" duration-ms="1006947">
+    <groups>
+      <group name="smoke">
+        <method signature="AddtoCartTest.selectItem()[pri:8, instance:Testcases.AddtoCartTest@482d776b]" name="selectItem" class="Testcases.AddtoCartTest"/>
+        <method signature="LoginPageTest.invalidEmailLogin()[pri:4, instance:Testcases.LoginPageTest@34a75079]" name="invalidEmailLogin" class="Testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidMobileNumberLogin()[pri:5, instance:Testcases.LoginPageTest@34a75079]" name="invalidMobileNumberLogin" class="Testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginUsingEmailID()[pri:3, instance:Testcases.LoginPageTest@34a75079]" name="loginUsingEmailID" class="Testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginUsingMobileNumber()[pri:2, instance:Testcases.LoginPageTest@34a75079]" name="loginUsingMobileNumber" class="Testcases.LoginPageTest"/>
+        <method signature="paymentTest.paymentgiftcard()[pri:18, instance:Testcases.paymentTest@132ddbab]" name="paymentgiftcard" class="Testcases.paymentTest"/>
+        <method signature="signUpTest.signUpTesting()[pri:1, instance:Testcases.signUpTest@55787112]" name="signUpTesting" class="Testcases.signUpTest"/>
+        <method signature="signoutTest.SignOutTesting()[pri:21, instance:Testcases.signoutTest@24faea88]" name="SignOutTesting" class="Testcases.signoutTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CarrerTest.CareerTesting()[pri:14, instance:Testcases.CarrerTest@7651218e]" name="CareerTesting" class="Testcases.CarrerTest"/>
+        <method signature="CouponsTest.coupontesing()[pri:11, instance:Testcases.CouponsTest@5bf22f18]" name="coupontesing" class="Testcases.CouponsTest"/>
+        <method signature="FilterTest.filterOption()[pri:7, instance:Testcases.FilterTest@2e029d61]" name="filterOption" class="Testcases.FilterTest"/>
+        <method signature="ProfileTest.profiletesing()[pri:9, instance:Testcases.ProfileTest@267f474e]" name="profiletesing" class="Testcases.ProfileTest"/>
+        <method signature="SearchItemTest.searchitem()[pri:6, instance:Testcases.SearchItemTest@346a361]" name="searchitem" class="Testcases.SearchItemTest"/>
+        <method signature="TopOfferTest.topoffertesting()[pri:20, instance:Testcases.TopOfferTest@28276e50]" name="topoffertesting" class="Testcases.TopOfferTest"/>
+        <method signature="TravelIconTest.TraveliconTesting()[pri:15, instance:Testcases.TravelIconTest@5b58ed3c]" name="TraveliconTesting" class="Testcases.TravelIconTest"/>
+        <method signature="becomeAsellerTest.becomesellerTesting()[pri:12, instance:Testcases.becomeAsellerTest@3efe7086]" name="becomesellerTesting" class="Testcases.becomeAsellerTest"/>
+        <method signature="contactUsTest.contactusclick()[pri:16, instance:Testcases.contactUsTest@68d6972f]" name="contactusclick" class="Testcases.contactUsTest"/>
+        <method signature="contactUsTest.helpcentericon()[pri:17, instance:Testcases.contactUsTest@68d6972f]" name="helpcentericon" class="Testcases.contactUsTest"/>
+        <method signature="groceryTest.groceryiconTesting()[pri:13, instance:Testcases.groceryTest@675d8c96]" name="groceryiconTesting" class="Testcases.groceryTest"/>
+        <method signature="myOrdersTest.myOrderstesting()[pri:10, instance:Testcases.myOrdersTest@acb0951]" name="myOrderstesting" class="Testcases.myOrdersTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-10-07T12:03:16 IST" name="Test" finished-at="2022-10-07T12:20:03 IST" duration-ms="1006947">
+      <class name="Testcases.ProfileTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.ProfileTest@267f474e]" started-at="2022-10-07T12:14:00 IST" name="startTest" finished-at="2022-10-07T12:14:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.ProfileTest.profiletesing() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.ProfileTest@267f474e]" started-at="2022-10-07T12:14:00 IST" name="Setup" finished-at="2022-10-07T12:14:55 IST" duration-ms="55025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="profiletesing()[pri:9, instance:Testcases.ProfileTest@267f474e]" started-at="2022-10-07T12:14:55 IST" name="profiletesing" finished-at="2022-10-07T12:15:16 IST" duration-ms="21446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profiletesing -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.ProfileTest@267f474e]" started-at="2022-10-07T12:15:16 IST" name="afterMethod" finished-at="2022-10-07T12:15:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=profiletesing status=SUCCESS method=ProfileTest.profiletesing()[pri:9, instance:Testcases.ProfileTest@267f474e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProfileTest@267f474e]" started-at="2022-10-07T12:15:16 IST" name="teardown" finished-at="2022-10-07T12:15:19 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.ProfileTest -->
+      <class name="Testcases.AddtoCartTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.AddtoCartTest@482d776b]" started-at="2022-10-07T12:08:23 IST" name="startTest" finished-at="2022-10-07T12:08:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.AddtoCartTest.selectItem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.AddtoCartTest@482d776b]" started-at="2022-10-07T12:08:23 IST" name="Setup" finished-at="2022-10-07T12:08:47 IST" duration-ms="23304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="selectItem()[pri:8, instance:Testcases.AddtoCartTest@482d776b]" started-at="2022-10-07T12:08:47 IST" name="selectItem" finished-at="2022-10-07T12:08:59 IST" duration-ms="12667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.AddtoCartTest@482d776b]" started-at="2022-10-07T12:08:59 IST" name="teardown" finished-at="2022-10-07T12:08:59 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.AddtoCartTest@482d776b]" started-at="2022-10-07T12:08:59 IST" name="afterMethod" finished-at="2022-10-07T12:08:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectItem status=SUCCESS method=AddtoCartTest.selectItem()[pri:8, instance:Testcases.AddtoCartTest@482d776b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases.AddtoCartTest -->
+      <class name="Testcases.groceryTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.groceryTest@675d8c96]" started-at="2022-10-07T12:16:39 IST" name="startTest" finished-at="2022-10-07T12:16:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.groceryTest.groceryiconTesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.groceryTest@675d8c96]" started-at="2022-10-07T12:16:39 IST" name="Setup" finished-at="2022-10-07T12:17:08 IST" duration-ms="28736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="groceryiconTesting()[pri:13, instance:Testcases.groceryTest@675d8c96]" started-at="2022-10-07T12:17:08 IST" name="groceryiconTesting" finished-at="2022-10-07T12:17:10 IST" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groceryiconTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.groceryTest@675d8c96]" started-at="2022-10-07T12:17:10 IST" name="afterMethod" finished-at="2022-10-07T12:17:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groceryiconTesting status=SUCCESS method=groceryTest.groceryiconTesting()[pri:13, instance:Testcases.groceryTest@675d8c96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.groceryTest@675d8c96]" started-at="2022-10-07T12:17:10 IST" name="teardown" finished-at="2022-10-07T12:17:13 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.groceryTest -->
+      <class name="Testcases.CarrerTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.CarrerTest@7651218e]" started-at="2022-10-07T12:18:01 IST" name="startTest" finished-at="2022-10-07T12:18:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.CarrerTest.CareerTesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.CarrerTest@7651218e]" started-at="2022-10-07T12:18:01 IST" name="Setup" finished-at="2022-10-07T12:18:27 IST" duration-ms="25658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CareerTesting()[pri:14, instance:Testcases.CarrerTest@7651218e]" started-at="2022-10-07T12:18:27 IST" name="CareerTesting" finished-at="2022-10-07T12:18:39 IST" duration-ms="12227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CareerTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.CarrerTest@7651218e]" started-at="2022-10-07T12:18:39 IST" name="afterMethod" finished-at="2022-10-07T12:18:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CareerTesting status=SUCCESS method=CarrerTest.CareerTesting()[pri:14, instance:Testcases.CarrerTest@7651218e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.CarrerTest@7651218e]" started-at="2022-10-07T12:18:39 IST" name="teardown" finished-at="2022-10-07T12:18:41 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.CarrerTest -->
+      <class name="Testcases.TopOfferTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.TopOfferTest@28276e50]" started-at="2022-10-07T12:15:19 IST" name="startTest" finished-at="2022-10-07T12:15:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.TopOfferTest.topoffertesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.TopOfferTest@28276e50]" started-at="2022-10-07T12:15:19 IST" name="Setup" finished-at="2022-10-07T12:15:47 IST" duration-ms="28090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="topoffertesting()[pri:20, instance:Testcases.TopOfferTest@28276e50]" started-at="2022-10-07T12:15:47 IST" name="topoffertesting" finished-at="2022-10-07T12:15:58 IST" duration-ms="10694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topoffertesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.TopOfferTest@28276e50]" started-at="2022-10-07T12:15:58 IST" name="afterMethod" finished-at="2022-10-07T12:15:58 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=topoffertesting status=SUCCESS method=TopOfferTest.topoffertesting()[pri:20, instance:Testcases.TopOfferTest@28276e50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TopOfferTest@28276e50]" started-at="2022-10-07T12:15:58 IST" name="teardown" finished-at="2022-10-07T12:15:58 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TopOfferTest -->
+      <class name="Testcases.signUpTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:03:16 IST" name="init" finished-at="2022-10-07T12:03:16 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:03:16 IST" name="startTest" finished-at="2022-10-07T12:03:16 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.signUpTest.signUpTesting() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:03:16 IST" name="Setup" finished-at="2022-10-07T12:03:42 IST" duration-ms="25877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="signUpTesting()[pri:1, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:03:42 IST" name="signUpTesting" finished-at="2022-10-07T12:04:00 IST" duration-ms="17458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:04:00 IST" name="afterMethod" finished-at="2022-10-07T12:04:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpTesting status=SUCCESS method=signUpTest.signUpTesting()[pri:1, instance:Testcases.signUpTest@55787112] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:04:00 IST" name="teardown" finished-at="2022-10-07T12:04:02 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportFlush()[pri:0, instance:Testcases.signUpTest@55787112]" started-at="2022-10-07T12:20:03 IST" name="reportFlush" finished-at="2022-10-07T12:20:04 IST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportFlush -->
+      </class> <!-- Testcases.signUpTest -->
+      <class name="Testcases.signoutTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.signoutTest@24faea88]" started-at="2022-10-07T12:19:16 IST" name="startTest" finished-at="2022-10-07T12:19:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.signoutTest.SignOutTesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.signoutTest@24faea88]" started-at="2022-10-07T12:19:16 IST" name="Setup" finished-at="2022-10-07T12:19:46 IST" duration-ms="30142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SignOutTesting()[pri:21, instance:Testcases.signoutTest@24faea88]" started-at="2022-10-07T12:19:46 IST" name="SignOutTesting" finished-at="2022-10-07T12:20:01 IST" duration-ms="14802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignOutTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.signoutTest@24faea88]" started-at="2022-10-07T12:20:01 IST" name="afterMethod" finished-at="2022-10-07T12:20:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignOutTesting status=SUCCESS method=signoutTest.SignOutTesting()[pri:21, instance:Testcases.signoutTest@24faea88] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.signoutTest@24faea88]" started-at="2022-10-07T12:20:01 IST" name="teardown" finished-at="2022-10-07T12:20:03 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.signoutTest -->
+      <class name="Testcases.TravelIconTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.TravelIconTest@5b58ed3c]" started-at="2022-10-07T12:18:41 IST" name="startTest" finished-at="2022-10-07T12:18:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.TravelIconTest.TraveliconTesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.TravelIconTest@5b58ed3c]" started-at="2022-10-07T12:18:41 IST" name="Setup" finished-at="2022-10-07T12:19:06 IST" duration-ms="24933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TraveliconTesting()[pri:15, instance:Testcases.TravelIconTest@5b58ed3c]" started-at="2022-10-07T12:19:06 IST" name="TraveliconTesting" finished-at="2022-10-07T12:19:16 IST" duration-ms="9205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TraveliconTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.TravelIconTest@5b58ed3c]" started-at="2022-10-07T12:19:16 IST" name="afterMethod" finished-at="2022-10-07T12:19:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TraveliconTesting status=SUCCESS method=TravelIconTest.TraveliconTesting()[pri:15, instance:Testcases.TravelIconTest@5b58ed3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TravelIconTest@5b58ed3c]" started-at="2022-10-07T12:19:16 IST" name="teardown" finished-at="2022-10-07T12:19:16 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TravelIconTest -->
+      <class name="Testcases.SearchItemTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.SearchItemTest@346a361]" started-at="2022-10-07T12:06:40 IST" name="Setup" finished-at="2022-10-07T12:07:05 IST" duration-ms="24335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.SearchItemTest@346a361]" started-at="2022-10-07T12:06:40 IST" name="startTest" finished-at="2022-10-07T12:06:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.SearchItemTest.searchitem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="searchitem()[pri:6, instance:Testcases.SearchItemTest@346a361]" started-at="2022-10-07T12:07:05 IST" name="searchitem" finished-at="2022-10-07T12:07:21 IST" duration-ms="16335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchitem -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.SearchItemTest@346a361]" started-at="2022-10-07T12:07:21 IST" name="teardown" finished-at="2022-10-07T12:07:23 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.SearchItemTest@346a361]" started-at="2022-10-07T12:07:21 IST" name="afterMethod" finished-at="2022-10-07T12:07:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchitem status=SUCCESS method=SearchItemTest.searchitem()[pri:6, instance:Testcases.SearchItemTest@346a361] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases.SearchItemTest -->
+      <class name="Testcases.contactUsTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:13 IST" name="startTest" finished-at="2022-10-07T12:17:13 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.contactUsTest.contactusclick() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:13 IST" name="Setup" finished-at="2022-10-07T12:17:38 IST" duration-ms="25522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="contactusclick()[pri:16, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:38 IST" name="contactusclick" finished-at="2022-10-07T12:17:43 IST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactusclick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:43 IST" name="afterMethod" finished-at="2022-10-07T12:17:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactusclick status=SUCCESS method=contactUsTest.contactusclick()[pri:16, instance:Testcases.contactUsTest@68d6972f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:43 IST" name="teardown" finished-at="2022-10-07T12:17:44 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:44 IST" name="startTest" finished-at="2022-10-07T12:17:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.contactUsTest.helpcentericon() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:44 IST" name="Setup" finished-at="2022-10-07T12:17:57 IST" duration-ms="13329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="helpcentericon()[pri:17, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:17:57 IST" name="helpcentericon" finished-at="2022-10-07T12:18:01 IST" duration-ms="3616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpcentericon -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:18:01 IST" name="teardown" finished-at="2022-10-07T12:18:01 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.contactUsTest@68d6972f]" started-at="2022-10-07T12:18:01 IST" name="afterMethod" finished-at="2022-10-07T12:18:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=helpcentericon status=SUCCESS method=contactUsTest.helpcentericon()[pri:17, instance:Testcases.contactUsTest@68d6972f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases.contactUsTest -->
+      <class name="Testcases.paymentTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:08:59 IST" name="Setup" finished-at="2022-10-07T12:12:00 IST" duration-ms="180844" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at BasePage.BasePage.setup(BasePage.java:68)
+at Testcases.paymentTest.Setup(paymentTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 45 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:08:59 IST" name="startTest" finished-at="2022-10-07T12:08:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.paymentTest.paymentgiftcard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="paymentgiftcard()[pri:18, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="paymentgiftcard" finished-at="2022-10-07T12:12:00 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at BasePage.BasePage.setup(BasePage.java:68)
+at Testcases.paymentTest.Setup(paymentTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 45 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentgiftcard -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920686" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920687" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="startTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920688" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="Setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920689" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="paymentsavedcard()[pri:19, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="paymentsavedcard" finished-at="2022-10-07T12:12:00 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02A5LG', ip: '192.168.16.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68cffafc339fde54d8646e242b01e66c, get {url=https://www.flipkart.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\HIMANS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65297/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68cffafc339fde54d8646e242b01e66c
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at BasePage.BasePage.setup(BasePage.java:68)
+at Testcases.paymentTest.Setup(paymentTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 45 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentsavedcard -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920694" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.paymentTest@132ddbab]" started-at="2022-10-07T12:12:00 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665124920694" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.paymentTest -->
+      <class name="Testcases.becomeAsellerTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.becomeAsellerTest@3efe7086]" started-at="2022-10-07T12:15:58 IST" name="startTest" finished-at="2022-10-07T12:15:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.becomeAsellerTest.becomesellerTesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.becomeAsellerTest@3efe7086]" started-at="2022-10-07T12:15:58 IST" name="Setup" finished-at="2022-10-07T12:16:24 IST" duration-ms="26048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="becomesellerTesting()[pri:12, instance:Testcases.becomeAsellerTest@3efe7086]" started-at="2022-10-07T12:16:24 IST" name="becomesellerTesting" finished-at="2022-10-07T12:16:39 IST" duration-ms="14730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- becomesellerTesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.becomeAsellerTest@3efe7086]" started-at="2022-10-07T12:16:39 IST" name="afterMethod" finished-at="2022-10-07T12:16:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=becomesellerTesting status=SUCCESS method=becomeAsellerTest.becomesellerTesting()[pri:12, instance:Testcases.becomeAsellerTest@3efe7086] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.becomeAsellerTest@3efe7086]" started-at="2022-10-07T12:16:39 IST" name="teardown" finished-at="2022-10-07T12:16:39 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.becomeAsellerTest -->
+      <class name="Testcases.myOrdersTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.myOrdersTest@acb0951]" started-at="2022-10-07T12:12:00 IST" name="Setup" finished-at="2022-10-07T12:12:41 IST" duration-ms="41144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.myOrdersTest@acb0951]" started-at="2022-10-07T12:12:00 IST" name="startTest" finished-at="2022-10-07T12:12:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.myOrdersTest.myOrderstesting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="myOrderstesting()[pri:10, instance:Testcases.myOrdersTest@acb0951]" started-at="2022-10-07T12:12:41 IST" name="myOrderstesting" finished-at="2022-10-07T12:12:56 IST" duration-ms="14828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOrderstesting -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.myOrdersTest@acb0951]" started-at="2022-10-07T12:12:56 IST" name="afterMethod" finished-at="2022-10-07T12:12:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myOrderstesting status=SUCCESS method=myOrdersTest.myOrderstesting()[pri:10, instance:Testcases.myOrdersTest@acb0951] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.myOrdersTest@acb0951]" started-at="2022-10-07T12:12:56 IST" name="teardown" finished-at="2022-10-07T12:12:59 IST" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.myOrdersTest -->
+      <class name="Testcases.LoginPageTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:02 IST" name="startTest" finished-at="2022-10-07T12:04:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.LoginPageTest.loginUsingMobileNumber() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:02 IST" name="Setup" finished-at="2022-10-07T12:04:27 IST" duration-ms="24546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginUsingMobileNumber()[pri:2, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:27 IST" name="loginUsingMobileNumber" finished-at="2022-10-07T12:04:35 IST" duration-ms="8246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingMobileNumber -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:35 IST" name="teardown" finished-at="2022-10-07T12:04:37 IST" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:35 IST" name="afterMethod" finished-at="2022-10-07T12:04:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsingMobileNumber status=SUCCESS method=LoginPageTest.loginUsingMobileNumber()[pri:2, instance:Testcases.LoginPageTest@34a75079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:37 IST" name="startTest" finished-at="2022-10-07T12:04:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.LoginPageTest.loginUsingEmailID() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:04:37 IST" name="Setup" finished-at="2022-10-07T12:05:02 IST" duration-ms="24238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginUsingEmailID()[pri:3, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:02 IST" name="loginUsingEmailID" finished-at="2022-10-07T12:05:10 IST" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsingEmailID -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:10 IST" name="afterMethod" finished-at="2022-10-07T12:05:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsingEmailID status=SUCCESS method=LoginPageTest.loginUsingEmailID()[pri:3, instance:Testcases.LoginPageTest@34a75079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:10 IST" name="teardown" finished-at="2022-10-07T12:05:12 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:12 IST" name="startTest" finished-at="2022-10-07T12:05:12 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.LoginPageTest.invalidEmailLogin() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:12 IST" name="Setup" finished-at="2022-10-07T12:05:20 IST" duration-ms="7692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="invalidEmailLogin()[pri:4, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:20 IST" name="invalidEmailLogin" finished-at="2022-10-07T12:05:26 IST" duration-ms="6299" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[Condition true expected:<[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]> but was:<[Flipkart]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: Condition true expected:<[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]> but was:<[Flipkart]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at Testcases.LoginPageTest.invalidEmailLogin(LoginPageTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:26 IST" name="afterMethod" finished-at="2022-10-07T12:05:27 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidEmailLogin status=FAILURE method=LoginPageTest.invalidEmailLogin()[pri:4, instance:Testcases.LoginPageTest@34a75079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:27 IST" name="teardown" finished-at="2022-10-07T12:05:29 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:29 IST" name="startTest" finished-at="2022-10-07T12:05:29 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.LoginPageTest.invalidMobileNumberLogin() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:29 IST" name="Setup" finished-at="2022-10-07T12:05:53 IST" duration-ms="23708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="invalidMobileNumberLogin()[pri:5, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:53 IST" name="invalidMobileNumberLogin" finished-at="2022-10-07T12:05:59 IST" duration-ms="6233" status="FAIL">
+          <exception class="org.junit.ComparisonFailure">
+            <message>
+              <![CDATA[Condition true expected:<[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]> but was:<[Flipkart]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.junit.ComparisonFailure: Condition true expected:<[Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]> but was:<[Flipkart]>
+at org.junit.Assert.assertEquals(Assert.java:115)
+at Testcases.LoginPageTest.invalidMobileNumberLogin(LoginPageTest.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.junit.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMobileNumberLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:59 IST" name="afterMethod" finished-at="2022-10-07T12:05:59 IST" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidMobileNumberLogin status=FAILURE method=LoginPageTest.invalidMobileNumberLogin()[pri:5, instance:Testcases.LoginPageTest@34a75079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:05:59 IST" name="teardown" finished-at="2022-10-07T12:06:02 IST" duration-ms="2390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:06:02 IST" name="startTest" finished-at="2022-10-07T12:06:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.LoginPageTest.excellogintesting() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:06:02 IST" name="Setup" finished-at="2022-10-07T12:06:33 IST" duration-ms="31138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="excellogintesting()[pri:22, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:06:33 IST" name="excellogintesting" finished-at="2022-10-07T12:06:38 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excellogintesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:06:38 IST" name="teardown" finished-at="2022-10-07T12:06:40 IST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginPageTest@34a75079]" started-at="2022-10-07T12:06:38 IST" name="afterMethod" finished-at="2022-10-07T12:06:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=excellogintesting status=SUCCESS method=LoginPageTest.excellogintesting()[pri:22, instance:Testcases.LoginPageTest@34a75079] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases.LoginPageTest -->
+      <class name="Testcases.CouponsTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.CouponsTest@5bf22f18]" started-at="2022-10-07T12:12:59 IST" name="Setup" finished-at="2022-10-07T12:13:44 IST" duration-ms="45112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.CouponsTest@5bf22f18]" started-at="2022-10-07T12:12:59 IST" name="startTest" finished-at="2022-10-07T12:12:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.CouponsTest.coupontesing() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="coupontesing()[pri:11, instance:Testcases.CouponsTest@5bf22f18]" started-at="2022-10-07T12:13:44 IST" name="coupontesing" finished-at="2022-10-07T12:14:00 IST" duration-ms="15866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coupontesing -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.CouponsTest@5bf22f18]" started-at="2022-10-07T12:14:00 IST" name="afterMethod" finished-at="2022-10-07T12:14:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=coupontesing status=SUCCESS method=CouponsTest.coupontesing()[pri:11, instance:Testcases.CouponsTest@5bf22f18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.CouponsTest@5bf22f18]" started-at="2022-10-07T12:14:00 IST" name="teardown" finished-at="2022-10-07T12:14:00 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.CouponsTest -->
+      <class name="Testcases.FilterTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:Testcases.FilterTest@2e029d61]" started-at="2022-10-07T12:07:23 IST" name="startTest" finished-at="2022-10-07T12:07:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcases.FilterTest.filterOption() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Testcases.FilterTest@2e029d61]" started-at="2022-10-07T12:07:23 IST" name="Setup" finished-at="2022-10-07T12:08:06 IST" duration-ms="43106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="filterOption()[pri:7, instance:Testcases.FilterTest@2e029d61]" started-at="2022-10-07T12:08:06 IST" name="filterOption" finished-at="2022-10-07T12:08:21 IST" duration-ms="14515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterOption -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.FilterTest@2e029d61]" started-at="2022-10-07T12:08:21 IST" name="teardown" finished-at="2022-10-07T12:08:23 IST" duration-ms="2396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.FilterTest@2e029d61]" started-at="2022-10-07T12:08:21 IST" name="afterMethod" finished-at="2022-10-07T12:08:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterOption status=SUCCESS method=FilterTest.filterOption()[pri:7, instance:Testcases.FilterTest@2e029d61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Testcases.FilterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
