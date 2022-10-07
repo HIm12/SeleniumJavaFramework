@@ -19,8 +19,6 @@ public class AddtoCartTest extends BasePage {
 
 	private static Logger logger = LogManager.getLogger(AddtoCartTest.class);
 
-
-
 	public AddtoCartTest() {
 		super();
 

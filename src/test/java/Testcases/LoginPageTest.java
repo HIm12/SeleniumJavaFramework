@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import BasePage.BasePage;
+import Com.ExitTest.Utils.TestDataExecution;
 import Com.ExitTest.Utils.exceldata;
 import config.PropertiesFile;
 import Pages.LoginPage;
@@ -121,11 +122,12 @@ public class LoginPageTest extends BasePage {
 		LoginPage.login_btn_click(driver);
 
 		exceldata excel = new exceldata();
+		String EXECUTION_REQUIRED = excel.readingData(2, 1);
+		TestDataExecution.toCheckExecutionRequired(EXECUTION_REQUIRED);
 		String USERID = excel.readingData(0, 1);
 		String PASSWORD = excel.readingData(1, 1);
 		LoginPage.username(driver).sendKeys(USERID);
 		LoginPage.password(driver).sendKeys(PASSWORD);
-
 		LoginPage.submit(driver).click();
 		logger.info("excellogintesting");
 		Thread.sleep(4000);

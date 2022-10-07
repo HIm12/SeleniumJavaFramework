@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcases.AddtoCartTest">
+      <class name="Testcases.LoginPageTest">
         <methods>
+          <include name="excellogintesting"/>
           <include name="init"/>
           <include name="startTest"/>
           <include name="teardown"/>
           <include name="reportFlush"/>
-          <include name="selectItem"/>
           <include name="Setup"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- Testcases.AddtoCartTest -->
+      </class> <!-- Testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
