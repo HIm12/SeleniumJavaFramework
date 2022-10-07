@@ -21,8 +21,8 @@ Headless
 Non- Headless
 
 ## Driver Options:-  
-Chrome
-Edge
+Chrome, 
+Edge, 
 Firefox
 
 ##For Reporting below option available.
